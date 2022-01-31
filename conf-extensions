@@ -1,0 +1,8 @@
+User tinyproxy
+Group tinyproxy
+
+DisableViaHeader Yes
+
+Port 8888
+upstream socks5 tor-proxy:9050
+
